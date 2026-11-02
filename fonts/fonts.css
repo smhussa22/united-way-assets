@@ -1,0 +1,17 @@
+@font-face { font-family: "primary"; src: url("primary_bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "secondary"; src: url("secondary_regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "secondary"; src: url("primary_bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "accent"; src: url("accent_light.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "accent"; src: url("accent_regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "accent"; src: url("accent_bold.woff2") format("woff2"), url("accent_bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "serif"; src: url("serif_regular.woff2") format("woff2"), url("serif_regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "display"; src: url("display_black_italic.woff") format("woff"); font-weight: 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "fallback_sans"; src: url("substitute_nunito_sans_latin.woff2") format("woff2"); font-weight: 400 800; font-style: normal; font-display: swap; }
+
+:root {
+    --font-primary: "primary", "fallback_sans", Helvetica, Arial, sans-serif;
+    --font-secondary: "secondary", "fallback_sans", Helvetica, Arial, sans-serif;
+    --font-accent: "accent", Impact, "Arial Narrow", sans-serif;
+    --font-serif: "serif", Georgia, serif;
+    --font-display: "display", "primary", Helvetica, Arial, sans-serif;
+}

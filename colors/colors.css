@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #da291c;
+    --color-primary_hover: #e74e42;
+    --color-primary_light: #fceae8;
+    --color-text: #040503;
+    --color-text_body: #444444;
+    --color-text_muted: #757575;
+    --color-background: #ffffff;
+    --color-background_alt: #fafafa;
+    --color-background_dark: #040503;
+    --color-border: #e8e8e8;
+    --color-border_input: #d7d7d7;
+    --color-gray: #a7a7a7;
+    --color-secondary: #41b6e6;
+    --color-secondary_hover: #6ec7ec;
+    --color-secondary_light: #e6f1fb;
+    --color-accent_green: #4d8406;
+    --color-accent_green_hover: #69b508;
+    --color-accent_green_light: #edf3e6;
+    --color-accent_orange: #d64a04;
+    --color-accent_orange_hover: #fb6012;
+    --color-accent_orange_light: #fbede6;
+    --color-accent_purple: #9661af;
+    --color-link: #040503;
+    --color-button: #da291c;
+    --color-button_text: #ffffff;
+    --color-header_background: #ffffff;
+    --color-footer_background: #040503;
+    --color-footer_text: #ffffff;
+}
